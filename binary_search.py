@@ -12,5 +12,9 @@ def binary_search(list, item):
             last = mid - 1
     return None
 
+
+list = [1, 3, 5, 7, 9]
+print(binary_search(list, 5))
+
 # To know how many steps a binary search will need to find a number in the worst case,
 # it will be log2n
